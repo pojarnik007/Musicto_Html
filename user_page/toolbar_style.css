@@ -1,0 +1,149 @@
+.bar_back {
+    position: fixed;
+    width: 80px;
+    height: 580px;
+    /*margin: 50px 1070px;*/
+
+    background: #8E879C;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+@media screen and (max-width: 2560px){
+    .bar_back{
+        margin: 50px 1591px
+    }
+}
+@media screen and (max-width: 1920px){
+    .bar_back{
+        margin: 50px 1260px;
+    }
+}
+@media screen and (max-width: 1720px){
+    .bar_back{
+        margin: 50px 1070px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .bar_back{
+        margin: 50px 940px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .bar_back{
+        margin: 50px 820px;
+    }
+}
+@media screen and (max-width: 800px){
+    .bar_back{
+        margin: 50px 790px;
+    }
+}
+
+
+.bar_back div:hover{
+    background: #8E879C;
+    transition: 0.5s;
+    height: 57px;
+    width: 57px;
+    left: 10.5px;
+}
+
+.bar_box0 {
+    position: absolute;
+    left: 12.5px;
+    top: 15px;
+
+    background: #C3B9D7;
+    box-shadow: 1.97778px 1.97778px 9.88889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+
+.bar_box {
+    position: absolute;
+    left: 10px;
+    top: 85px;
+
+    background: #5C5865;
+    box-shadow: inset 1.97778px 1.97778px 9.88889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+
+.bar_box1 {
+    position: absolute;
+    left: 10px;
+    top: 155px;
+
+    background: #5C5865;
+    box-shadow: inset 1.97778px 1.97778px 9.88889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+
+.bar_box2 {
+    position: absolute;
+
+    left: 10px;
+    top: 225px;
+
+    background: #5C5865;
+    box-shadow: inset 1.97778px 1.97778px 9.88889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+
+.bar_box3 {
+    position: absolute;
+
+    left: 10px;
+    top: 295px;
+
+    background: #5C5865;
+    box-shadow: inset 1.97778px 1.97778px 9.88889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+
+.bar_box4 {
+    position: absolute;
+
+    left: 10px;
+    top: 365px;
+
+    background: #5C5865;
+    box-shadow: inset 1.97778px 1.97778px 9.88889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+
+.bar_box5 {
+    position: absolute;
+
+    left: 10px;
+    top: 435px;
+
+    background: #5C5865;
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+
+.bar_box6 {
+    position: absolute;
+
+    left: 10px;
+    top: 505px;
+
+    background: #5C5865;
+    box-shadow: inset 1.97778px 1.97778px 9.88889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+
+.bar_back div {
+    width: 55px;
+    height: 55px;
+    left: 12.5px;
+    transition: 0.5s;
+}
+
+.bar_back img {
+    position: absolute;
+    display: flex;
+    margin: 8px 8px;
+    max-width: 70%;
+}

@@ -1,0 +1,116 @@
+.container_img{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+    flex: 1;
+    margin: auto;
+    width: 550px;
+    height: 1000px;
+}
+.ground_img {
+    position: relative;
+    top: 50px;
+    width: 550px;
+    height: 900px;
+    background: #8E879C;
+    box-shadow: 1.97778px 3.95556px 9.88889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+
+.icon {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: -50px;
+    top: -30px;
+
+    background: #C3B9D7;
+    box-shadow: 3.95556px 3.95556px 9.88889px 2.96667px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+
+.nick {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 110px;
+    top: 20px;
+
+    background: #5C5865;
+    box-shadow: 1.97778px 1.97778px 9.88889px 0.988889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+.date{
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    left: 110px;
+    top: 70px;
+
+    background: #5C5865;
+    box-shadow: 1.97778px 1.97778px 9.88889px 0.988889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+.content_img{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 25px;
+    top: 130px;
+
+    background: #5C5865;
+    box-shadow: 1.97778px 1.97778px 9.88889px 0.988889px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.like{
+
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 25px;
+    bottom: 20px;
+
+    background: #C3B9D7;
+    box-shadow: 1.97778px 1.97778px 9.88889px 0.988889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+.comment{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 95px;
+    bottom: 20px;
+
+    background: #C3B9D7;
+    box-shadow: 1.97778px 1.97778px 9.88889px 0.988889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+.repost{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+   right: 25px;
+    bottom: 20px;
+
+    background: #C3B9D7;
+    box-shadow: 1.97778px 1.97778px 9.88889px 0.988889px rgba(0, 0, 0, 0.25);
+    border-radius: 9.88889px;
+}
+.img_post{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    left: 25px;
+    top: 200px;
+    background: #5C5865;
+    box-shadow: 1.97778px 1.97778px 9.88889px 0.988889px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.like img, .repost img, .comment img{
+    max-width: 70%;
+    margin: 10px 10px;
+}
+.like img{
+    margin: 12px 8px;
+}

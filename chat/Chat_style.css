@@ -1,0 +1,119 @@
+.friends_in_chat{
+    position: fixed;
+    margin: 50px 170px;
+    width: 310px;
+    height: 650px;
+    background: #8E879C;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: auto;
+}
+.chat_back{
+    display: grid;
+    position: fixed;
+    margin: 50px 500px;
+    width: 550px;
+    height: 650px;
+    background: #8E879C;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.chat_container{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 510px;
+    height: 530px;
+    background: #5C5865;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.message_bar{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 430px;
+    height: 60px;
+    background: #C3B9D7;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.send{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #C3B9D7;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.friend_container{
+    float: left;
+    position: relative;
+    margin: 20px 20px;
+    width: 250px;
+    height: 60px;
+}
+.friend_img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #C3B9D7;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    object-fit: fill;
+    overflow: hidden;
+}
+.friend_img img{
+    max-width: 100%;
+}
+.friend_name{
+    position: absolute;
+    left: 70px;
+    width: 150px;
+    height: 30px;
+    background: #5C5865;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.friend_name_font{
+    margin: 0 5px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    font-family: 'Baloo Da 2', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #C3B9D7;
+}
+.friend_last_message{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    width: 100px;
+    height: 20px;
+    background: #5C5865;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.friend_last_message_font{
+    margin: 0 5px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    font-family: 'Baloo Da 2', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #C3B9D7;
+}
+.send img{
+    max-width: 70%;
+    margin: 10px 10px;
+}

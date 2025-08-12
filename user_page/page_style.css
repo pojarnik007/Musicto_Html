@@ -1,0 +1,36 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #39383D;
+    color: #fff;
+}
+
+.back {
+    z-index: 1;
+}
+
+.back_balk1 {
+    position: fixed;
+    width: 1517px;
+    height: 322px;
+    left: 171px;
+    top: 95px;
+    background: #434048;
+    border-radius: 10px;
+}
+
+.back_balk2 {
+    position: fixed;
+    width: 1717px;
+    height: 422px;
+    left: -405px;
+    top: 503px;
+
+    background: #434048;
+    border-radius: 10px;
+}
